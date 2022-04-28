@@ -5,9 +5,8 @@ import {createProduit} from "../app.js";
 import {prixTotal} from "../app.js";
 
 
-describe("Checking if the panier is empty", function(){
-        it("calcul tva", function(){
-                debugger
+describe("Prix total", function(){
+        it("calcule tva", function(){
                 console.log(prixTotal());
                 console.log(calculeTva());
             });
