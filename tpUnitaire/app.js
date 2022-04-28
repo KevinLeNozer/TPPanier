@@ -17,21 +17,21 @@ const ajouterPanier = (produit, quantite) => {
 ajouterPanier(produit, 3);
 console.log(panier);
 
-const calculTva = () => {
+const calculeTva = () => {
     let tva = 0;
     panier.forEach(element => {
         tva += element.produit.prix*20/100*element.quantite;
     });
     return tva
 }
-console.log(calculTva())
+console.log(calculeTva())
 
 const prixTotal = () => {
     let total = 0;
     panier.forEach(element => {
         total += element.produit.prix*element.quantite
     });
-    total += calculTva();
+    total += calculeTva();
     return total
 }
 console.log(prixTotal());
