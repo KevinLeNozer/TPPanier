@@ -31,7 +31,7 @@ jobs:
             ${{ runner.os }}-node-v${{ matrix.node }}-
       - name: Install Dependencies
         run: npm install
-      - name: Install mocha
+      - name: install mocha
         run: npm install -g mocha
       - name: Run All Node.js Tests
         run: npm run test
