@@ -1,7 +1,6 @@
 import should from 'should';
 
 import {calculeTva} from "../app.js";
-import {createProduit} from "../app.js";
 import {prixTotal} from "../app.js";
 
 
