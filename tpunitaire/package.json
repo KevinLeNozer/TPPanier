@@ -1,0 +1,18 @@
+{
+  "name": "tpunitaire",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}
